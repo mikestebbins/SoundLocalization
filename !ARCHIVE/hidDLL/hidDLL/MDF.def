@@ -1,0 +1,7 @@
+LIBRARY hidDLL
+EXPORTS
+   fnhidDLL
+   rawhid_open
+   rawhid_close
+   rawhid_send
+   rawhid_recv
