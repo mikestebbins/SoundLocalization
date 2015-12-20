@@ -10777,7 +10777,7 @@ Pogo pins- HW-11044</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="AD8031" library="analog-devices" deviceset="AD8031" device="R" value=""/>
+<part name="AD8031" library="analog-devices" deviceset="AD8031" device="R"/>
 <part name="R1M" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="R2M" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="R3M" library="rcl" deviceset="R-US_" device="R1206" value="4.99k"/>

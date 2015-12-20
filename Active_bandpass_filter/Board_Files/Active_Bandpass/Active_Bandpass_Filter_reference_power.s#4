@@ -10947,7 +10947,7 @@ Pogo pins- HW-11044</description>
 <net name="5V" class="0">
 <segment>
 <pinref part="IC3" gate="A1" pin="VO"/>
-<label x="55.88" y="96.52" size="1.778" layer="95"/>
+<label x="50.8" y="96.52" size="1.778" layer="95"/>
 <wire x1="53.34" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="88.9" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
