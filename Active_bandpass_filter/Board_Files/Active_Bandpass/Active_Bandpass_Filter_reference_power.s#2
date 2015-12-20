@@ -10838,7 +10838,7 @@ Pogo pins- HW-11044</description>
 <instance part="JP10" gate="G$1" x="185.42" y="71.12"/>
 <instance part="C1" gate="G$1" x="99.06" y="96.52" rot="MR270"/>
 <instance part="C2" gate="G$1" x="101.6" y="104.14" rot="R270"/>
-<instance part="C3" gate="G$1" x="45.72" y="86.36" rot="MR0"/>
+<instance part="C3" gate="G$1" x="43.18" y="86.36" rot="MR0"/>
 <instance part="C4" gate="G$1" x="22.86" y="86.36" rot="MR0"/>
 <instance part="GND2" gate="1" x="91.44" y="104.14" rot="R270"/>
 <instance part="GND8" gate="1" x="91.44" y="96.52" rot="R270"/>
@@ -10935,7 +10935,7 @@ Pogo pins- HW-11044</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="33.02" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="78.74" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
@@ -10947,10 +10947,9 @@ Pogo pins- HW-11044</description>
 <net name="5V" class="0">
 <segment>
 <pinref part="IC3" gate="A1" pin="VO"/>
-<label x="55.88" y="96.52" size="1.778" layer="95"/>
+<label x="50.8" y="96.52" size="1.778" layer="95"/>
 <wire x1="53.34" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="88.9" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <junction x="43.18" y="96.52"/>
 </segment>
