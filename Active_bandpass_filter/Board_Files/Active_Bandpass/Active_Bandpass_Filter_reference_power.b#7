@@ -44,8 +44,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2742,7 +2742,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="43.18" y="0"/>
 </polygon>
 <wire x1="39.37" y1="3.81" x2="39.37" y2="4.95" width="0.254" layer="1"/>
-<polygon width="0.254" layer="16" isolate="0.3048">
+<polygon width="0.254" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="0" y="17.78"/>
 <vertex x="43.18" y="17.78"/>
@@ -2845,8 +2845,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="18,29,10b4a887705f1029"/>
 <approved hash="18,29,283efe4bf5464fc2"/>
 <approved hash="18,29,8f2365488346bdde"/>
-<approved hash="18,29,a2b2f32d652434bb"/>
-<approved hash="18,29,6657cc4851458fab"/>
 <approved hash="18,29,8970475fd15a1f75"/>
 <approved hash="18,29,e25c8b0bcb069c6c"/>
 <approved hash="18,29,52ec3d58d755b8e1"/>

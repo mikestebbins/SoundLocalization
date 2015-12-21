@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2715,9 +2715,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.382" y1="14.605" x2="6.855" y2="14.605" width="0.254" layer="1"/>
 <wire x1="6.855" y1="14.605" x2="2.41" y2="10.16" width="0.254" layer="1"/>
 <wire x1="2.54" y1="10.03" x2="2.54" y2="5.715" width="0.254" layer="1"/>
-<wire x1="2.54" y1="5.715" x2="5.207" y2="3.048" width="0.254" layer="1"/>
-<wire x1="5.207" y1="3.048" x2="5.207" y2="2.032" width="0.254" layer="1"/>
-<wire x1="5.207" y1="2.032" x2="5.715" y2="1.905" width="0.254" layer="1"/>
+<wire x1="2.54" y1="5.715" x2="5.715" y2="2.54" width="0.254" layer="1"/>
+<wire x1="5.715" y1="1.905" x2="5.715" y2="2.54" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C5" pad="2"/>
@@ -2837,6 +2836,36 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="34.925" y1="5.715" x2="41.91" y2="5.715" width="0.254" layer="16"/>
 </signal>
 </signals>
+<errors>
+<approved hash="18,29,6b3d6bda7dd27d35"/>
+<approved hash="18,29,a247c1006b040843"/>
+<approved hash="18,29,d82f71f50ff8981f"/>
+<approved hash="18,29,f751b73dceeb6dfd"/>
+<approved hash="18,29,76d740bceabadcd1"/>
+<approved hash="18,29,10b4a887705f1029"/>
+<approved hash="18,29,283efe4bf5464fc2"/>
+<approved hash="18,29,8f2365488346bdde"/>
+<approved hash="18,29,a2b2f32d652434bb"/>
+<approved hash="18,29,6657cc4851458fab"/>
+<approved hash="18,29,8970475fd15a1f75"/>
+<approved hash="18,29,e25c8b0bcb069c6c"/>
+<approved hash="18,29,52ec3d58d755b8e1"/>
+<approved hash="18,29,9660b4f85efd7c65"/>
+<approved hash="18,29,11fed4cc51cc94fe"/>
+<approved hash="18,29,b0b162cacbca19b1"/>
+<approved hash="18,29,b9217d32cb2c0f3f"/>
+<approved hash="18,29,fea8adf11bf548ac"/>
+<approved hash="18,29,ca24e78f0d91203a"/>
+<approved hash="18,29,3296ec11061cd89b"/>
+<approved hash="18,29,8959d2cd84c7df53"/>
+<approved hash="18,29,062c669430a85010"/>
+<approved hash="18,29,edf8134bfa4a04f9"/>
+<approved hash="18,29,1f0ff3253624da0e"/>
+<approved hash="18,29,84cb3ae513e7adc9"/>
+<approved hash="18,29,b75d1a281f2ab25f"/>
+<approved hash="18,29,8fab75f95cf8a6aa"/>
+<approved hash="18,29,bc3d55345035b93c"/>
+</errors>
 </board>
 </drawing>
 </eagle>
