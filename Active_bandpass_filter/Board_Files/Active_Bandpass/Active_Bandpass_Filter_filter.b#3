@@ -159,10 +159,6 @@
 OUT</text>
 <text x="32.131" y="14.351" size="1.27" layer="21" rot="R180">GND</text>
 <wire x1="18.415" y1="11.43" x2="17.018" y2="11.43" width="0.254" layer="21" curve="-190.388858"/>
-<text x="25.4" y="1.27" size="1.27" layer="16" rot="MR0">Bandpass Filter
-v1.0
-12-2015
-M Stebbins</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1655,9 +1651,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.225" y1="8.255" x2="22.86" y2="7.62" width="0.254" layer="1"/>
 <wire x1="22.86" y1="7.62" x2="25.248" y2="7.62" width="0.254" layer="1"/>
 <wire x1="25.248" y1="7.62" x2="25.4" y2="7.468" width="0.254" layer="1"/>
-<wire x1="25.4" y1="7.468" x2="30.328" y2="7.468" width="0.254" layer="1"/>
-<wire x1="30.328" y1="7.468" x2="30.48" y2="7.62" width="0.254" layer="1"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="8.763" width="0.254" layer="1"/>
+<wire x1="25.4" y1="7.468" x2="30.455" y2="7.468" width="0.254" layer="1"/>
+<wire x1="30.455" y1="7.468" x2="30.48" y2="8.763" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP4" pad="2"/>
