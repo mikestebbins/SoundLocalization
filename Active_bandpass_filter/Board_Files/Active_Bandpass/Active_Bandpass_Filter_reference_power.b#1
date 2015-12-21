@@ -44,8 +44,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -146,6 +146,40 @@
 <wire x1="43.18" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <hole x="2.54" y="15.24" drill="2.9464"/>
 <hole x="2.54" y="2.54" drill="2.9464"/>
+<text x="0.635" y="11.557" size="1.27" layer="21">C4</text>
+<text x="5.588" y="3.81" size="1.27" layer="21">C5</text>
+<text x="11.684" y="7.493" size="1.27" layer="21">C3</text>
+<text x="14.224" y="2.794" size="1.27" layer="21" rot="R90">R2</text>
+<text x="19.177" y="2.54" size="1.27" layer="21" rot="R90">C6</text>
+<text x="21.971" y="13.081" size="1.27" layer="21" rot="R90">R1</text>
+<text x="22.86" y="3.81" size="1.27" layer="21">R3</text>
+<text x="22.606" y="11.811" size="1.27" layer="21">AD8031</text>
+<text x="29.21" y="12.573" size="1.27" layer="21">C2</text>
+<text x="30.48" y="3.81" size="1.27" layer="21">C8</text>
+<text x="31.877" y="8.001" size="1.27" layer="21" rot="R90">C7</text>
+<text x="35.433" y="7.874" size="1.27" layer="21" rot="R90">C1</text>
+<wire x1="24.003" y1="11.303" x2="24.003" y2="6.477" width="0.254" layer="21"/>
+<wire x1="24.003" y1="6.477" x2="26.797" y2="6.477" width="0.254" layer="21"/>
+<wire x1="26.797" y1="6.477" x2="26.797" y2="11.303" width="0.254" layer="21"/>
+<wire x1="26.797" y1="11.303" x2="25.908" y2="11.303" width="0.254" layer="21"/>
+<wire x1="25.908" y1="11.303" x2="24.892" y2="11.303" width="0.254" layer="21"/>
+<wire x1="24.892" y1="11.303" x2="24.003" y2="11.303" width="0.254" layer="21"/>
+<wire x1="25.908" y1="11.303" x2="24.892" y2="11.303" width="0.254" layer="21" curve="-180"/>
+<text x="34.29" y="7.62" size="1.4224" layer="22" rot="MR0">Bandpass Filter Power
+v1.0
+12-2015
+M Stebbins</text>
+<text x="6.477" y="11.303" size="1.27" layer="21">7805</text>
+<text x="35.306" y="14.097" size="1.27" layer="21" rot="R90">5V</text>
+<text x="40.259" y="7.366" size="1.27" layer="21" rot="R90">GND</text>
+<text x="42.672" y="7.62" size="1.27" layer="21" rot="R90">REF</text>
+<text x="35.306" y="1.397" size="1.27" layer="21" rot="R90">5V</text>
+<wire x1="41.91" y1="12.7" x2="41.91" y2="11.43" width="0.254" layer="21"/>
+<wire x1="41.91" y1="5.08" x2="41.91" y2="6.35" width="0.254" layer="21"/>
+<wire x1="39.37" y1="12.7" x2="39.37" y2="11.43" width="0.254" layer="21"/>
+<wire x1="39.37" y1="5.08" x2="39.37" y2="6.35" width="0.254" layer="21"/>
+<wire x1="36.83" y1="12.7" x2="36.83" y2="11.43" width="0.254" layer="21"/>
+<wire x1="36.83" y1="5.08" x2="36.83" y2="6.35" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -2742,7 +2776,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="43.18" y="0"/>
 </polygon>
 <wire x1="39.37" y1="3.81" x2="39.37" y2="4.95" width="0.254" layer="1"/>
-<polygon width="0.254" layer="16" isolate="0.3048">
+<polygon width="0.254" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="0" y="17.78"/>
 <vertex x="43.18" y="17.78"/>
@@ -2845,8 +2879,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="18,29,10b4a887705f1029"/>
 <approved hash="18,29,283efe4bf5464fc2"/>
 <approved hash="18,29,8f2365488346bdde"/>
-<approved hash="18,29,a2b2f32d652434bb"/>
-<approved hash="18,29,6657cc4851458fab"/>
 <approved hash="18,29,8970475fd15a1f75"/>
 <approved hash="18,29,e25c8b0bcb069c6c"/>
 <approved hash="18,29,52ec3d58d755b8e1"/>
@@ -2868,4 +2900,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
