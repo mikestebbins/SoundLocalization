@@ -146,6 +146,18 @@
 <wire x1="43.18" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <hole x="2.54" y="15.24" drill="2.9464"/>
 <hole x="2.54" y="2.54" drill="2.9464"/>
+<text x="0.635" y="11.557" size="1.27" layer="21">C4</text>
+<text x="5.588" y="3.81" size="1.27" layer="21">C5</text>
+<text x="11.684" y="7.493" size="1.27" layer="21">C3</text>
+<text x="14.224" y="2.794" size="1.27" layer="21" rot="R90">R2</text>
+<text x="19.177" y="2.54" size="1.27" layer="21" rot="R90">C6</text>
+<text x="21.971" y="13.081" size="1.27" layer="21" rot="R90">R1</text>
+<text x="22.86" y="3.81" size="1.27" layer="21">R3</text>
+<text x="22.606" y="11.811" size="1.27" layer="21">AD8031</text>
+<text x="29.21" y="12.573" size="1.27" layer="21">C2</text>
+<text x="30.48" y="3.81" size="1.27" layer="21">C8</text>
+<text x="31.877" y="8.001" size="1.27" layer="21" rot="R90">C7</text>
+<text x="35.433" y="7.874" size="1.27" layer="21" rot="R90">C1</text>
 </plain>
 <libraries>
 <library name="resistor">

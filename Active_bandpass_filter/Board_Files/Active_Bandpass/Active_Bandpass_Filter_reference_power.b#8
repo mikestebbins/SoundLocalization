@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2676,8 +2676,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09701" x="41.91" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.18" y="6.985" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP3" library="SparkFun-Connectors" package="1X02_LOCK_LONGPADS" value="" x="5.461" y="1.905" smashed="yes">
-<attribute name="VALUE" x="4.191" y="-1.397" size="1.27" layer="27" font="vector"/>
+<element name="JP3" library="SparkFun-Connectors" package="1X02_LOCK_LONGPADS" value="" x="5.842" y="1.905" smashed="yes">
+<attribute name="VALUE" x="4.572" y="-1.397" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="JP9" library="SparkFun-Connectors" package="2X3" value="" x="41.91" y="16.51" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09701" x="41.91" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2717,7 +2717,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="2.54" y1="10.03" x2="2.54" y2="5.715" width="0.254" layer="1"/>
 <wire x1="2.54" y1="5.715" x2="5.207" y2="3.048" width="0.254" layer="1"/>
 <wire x1="5.207" y1="3.048" x2="5.207" y2="2.032" width="0.254" layer="1"/>
-<wire x1="5.207" y1="2.032" x2="5.334" y2="1.905" width="0.254" layer="1"/>
+<wire x1="5.207" y1="2.032" x2="5.715" y2="1.905" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C5" pad="2"/>

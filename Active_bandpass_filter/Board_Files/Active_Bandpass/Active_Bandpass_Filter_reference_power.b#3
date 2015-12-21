@@ -165,6 +165,10 @@
 <wire x1="25.908" y1="11.303" x2="24.892" y2="11.303" width="0.254" layer="21"/>
 <wire x1="24.892" y1="11.303" x2="24.003" y2="11.303" width="0.254" layer="21"/>
 <wire x1="25.908" y1="11.303" x2="24.892" y2="11.303" width="0.254" layer="21" curve="-180"/>
+<text x="34.29" y="7.62" size="1.4224" layer="22" rot="MR0">Bandpass Filter Power
+v1.0
+12-2015
+M Stebbins</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -2885,4 +2889,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
